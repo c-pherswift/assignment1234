@@ -1,23 +1,26 @@
 Body {
-    Background-color:rgb(38, 113, 235);
-}
-
-h1 {
-    color:blueviolet;
-}
-
-div{
-    background-color:white;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-}
-
-    shadow-text {
-        text-shadow: gray 1px 1px;        
+    Background-color: #fff;
     }
-
-    #large-paragraph {
-        font-size: 30px;
+   /* ---ADDED CUSTOM FONT- COLOR,-FAMILY,-SIZE, AND WEIGHT ON HEADER--- */
+    h1 {
+        color:#1a1b1b;
+        font-family:'Times New Roman', Times, serif
+        font-size: large;
+        font-weight: 500;
     }
-
+    /* ---ADDED CUSTOM COLOR, BORDER DESING, COLOR AND THICKNESS--- */
+        div{
+        background-color:#fff;
+        border-style: solid;
+        border-color: #fff;
+        border-radius: 1px;
+    }
+    
+        shadow-text {
+            text-shadow: #1a1b1b; 1px 1px;        
+        }
+    
+        #large-paragraph {
+            font-size: 30px;
+        }
+    
