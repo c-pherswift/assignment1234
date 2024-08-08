@@ -1,73 +1,73 @@
 <!DOCTYPE html>
-<html>
-    <head> 
-<!--Here I placed the name of each page that I want to be able to navigate between on my website. -->
+<html lang="en">
+<head> 
+    <header>
+        <!--Here I placed the name of each page that I want to be able to navigate between on my website. -->
         <Title>Contact</Title>
-<!--Below I've linked to the external css styles sheet, as opposed to using internal or inline css. The relationshit to the page is "stylesheet" and the link is to the css syle file-->
-        <link rel="stylesheet" href="syles.css">
-    </head>
-    <div>
-        <div style="text-align:right">
+        <!--Below I've linked to the external css styles sheet, as opposed to using internal or inline css. The relationshit to the page is "stylesheet" and the link is to the css syle file-->
+        <link rel="stylesheet" href="style.css">
+        <!--below are the navigation links, intentionally placed within the header-->
+        <nav>
+            <nav style="text-align:right">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>  
             <a href="Contact.html">Contact</a>
-        </div>
-    </div>
-    <Body>
-<!--  This element will contain contact information, including a table with a URL to linkedin page, as well as a form where contact information and message can be filled out and submitted -->
+            </nav>
+        </nav>
+    </header>
+</head>
 
-        
-        <p>
-            <div style="text-align:center"><h2>Contact</h2>
-            Please use form below to get in touch! 
-            </div>
-        </p>
+<body>
+    <!--I've added a parapgraph element below with size 2 heading inside the body element-->        
+    <p>
+    <div style="text-align:center"><h2>Contact</h2>
+    Please use form below to get in touch! 
+    </div>
+    </p>
       
 <!--- I used a size 3 heading over my form, and for each text box I've included discriptive "alt" text for increased accessibility (text readers etc.)-->
-       
-        
-        <div style="text-align:center"><h3>For any Questions:</h3>
+<div style="text-align:center"><h3>For any Questions:</h3>
+<!---for the conact form below, I specifically chose not to use "lables", instead I decided to have "placeholders". -->
     
         <form action="" method="get" class="Contact-form">
             <div class="contact-form">
                 <input type="text" name="Firstname" Placeholder="First Name" required>
             </div>
             <div class="contact-form">
-                <input type="text" name="Lastname" Placeholder="Last Name" required>
+            <input type="text" name="Lastname" Placeholder="Last Name" required>
             </div>
             <div class="contact-form">
-                <input type="text" name="Phone" Placeholder="Phone number" required>
+            <input type="text" name="Phone" Placeholder="Phone number" required>
             </div>
             <div class="contact-form">
-                <input type="text" name="Email" Placeholder="Email" required>
+            <input type="text" name="Email" Placeholder="Email" required>
             </div>
             <br>
             <div class="contact-form">
-                <input type="submit" value="submit">
-                </h2>
+            <button type="submit">submit</button>   
             </div>
         </form>  
-<!---Again, I used "<br>" to create more spacing between the navigation buttons and the images for a more aesthetically pleasing layout--> <br>
-        <br>
-        <br>
-        <br>
+
 
 <!---Below, I added a table with a URL link (anchor) within the table data that will direct you to a website--> 
+        <p>
             <table>               
                 <tr>
                     <td>LinkedIn</td>
                     <td><a href="https://linkedin.com/amathildaprince">LinkedIn</a></td>
                 </tr>
             </table>
+        </p>
     </div>
     
-  <!-- Here I added a footer with a thematic break to make the page look more professional and add to the  uniform feel of all pages. I included a "to the top" button in the footer as well.-->
+    <!--I added a thematic break on each of the pages right above the footer--->
     <hr>
-    <footer>
-        <p>Created by alexandra mathilda prince</p>
-        <div style="text-align:right">
+   <!--and here i decided to add a footer to the page, including a "to the top" button--> 
+        <footer>
+            <p>Created by alexandra mathilda prince</p>
+            <div style="text-align:right">
             <a href="#top">To the top</a>
-        </div>
-     </footer>
+            </div>
+        </footer>   
     </Body>
 </html>

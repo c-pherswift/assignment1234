@@ -1,71 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <!--Below I've linked to the external css styles sheet, as opposed to using internal or inline css. The relationshit to the page is "stylesheet" and the link is to the css syle file-->
-        <link rel="stylesheet" href="syles.css">
+        <title>About</title>
+        <!--Below I've linked to the external css styles sheet, as opposed to using internal or inline css. The relationshit to the page is "stylesheet" and the link is to the css syle file-->
+        <link rel="stylesheet" href="style.css">
+        <nav>
+            <nav style="text-align:right">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>  
+            <a href="Contact.html">Contact</a>
+            </nav>
+        </nav>
+    </header>
 </head>
-<!---I placed the navigation buttons with a "right-side" alignment, 
-and above the body because I want them to be uniform-- in the same place on each page-- making it easy to find, and more aesthetically pleasing. -->
-<div>
-    <div style="text-align:right">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>  
-        <a href="Contact.html">Contact</a>
-    </div>
-</div>
 
 <body>
-<!--Here I placed the name of each page that I want to be able to navigate between on my website. I chose a smaller heading size on the "about" and "contact" page than I did in the "home" page to further distiguing between the main page and others. -->
-     <h2>About</h2>
-<!---I implemented code to link between the different pages where I will be able to actually move from one to another-->
-         
-    <header>
-        <h4>Alexandra Mathilda Prince</h4>
-    </header>
-   
- 
-     
-<!-- a paragraph with a short bio -->
     <main>
-        <p>Following previous studies in sociology and communication, which has provided her a unique perspective on human behavior and interpersonal dynamics, Mathilda is thrilled to share her accomplishments as she delves into Promineo Tech's Software Development boot camp. This accreditation marks her dedication to continuously expanding her knowledge and abilities.  Grateful for the opportunities education has afforded her, she is enthusiastic about the prospect of being able to combine her diverse academic and professional experiences and go on to create meaningful work in the field of IT. </p>
+    <!--I used a sixe 2 heading here for the name of each page that I want to be able to navigate between on my website. 
+    I chose a smaller heading size on the "about" and "contact" page than I did in the "home" page to further differentiate 
+    between the "main" page and others. --> 
+     <h2>About</h2>
+    <!---I implemented code to link between the different pages where I will be able to actually move between them-->
+    <div>
+        <h4>Alexandra Mathilda Prince</h4>
+    </div>  
 
-<!-- here I decided to use an unordered list to list a number of skills without any specific order -->
-            <section>
-        <h2>Skills</h2>
+    <!-- a paragraph with a short bio -->
+    <p>Following previous studies in sociology and communication, which has provided her a unique perspective on human behavior and interpersonal dynamics, Mathilda is thrilled to share her accomplishments as she delves into Promineo Tech's Software Development boot camp. This accreditation marks her dedication to continuously expanding her knowledge and abilities.  Grateful for the opportunities education has afforded her, she is enthusiastic about the prospect of being able to combine her diverse academic and professional experiences and go on to create meaningful work in the field of IT. </p>
+
+    <!-- below I used an "unordered list" to list a number of skills without any specific order -->
+        <section>
+            <h2>Skills</h2>
                 <ul>
-                    <li>Tech Savy</li>
+                    <li>Tech Savvy</li>
                     <li>Reliable</li>
                     <li>Motivated</li>
                     <li>Solution Oriented</li>
                 </ul>
-<!---I'm not entirely sure "<br>" is the preferred alternative, but I wanted to add line break elements for a more attactive layout and knew they'd do the job.-->
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
-            </section>
-  <!-- Here I added a footer with a thematic break to make the page look more professional and add to the  uniform feel of all pages. I included a "to the top" button in the footer as well.-->
-        <hr>
-        <footer>
-            <p>Created by alexandra mathilda prince</p>
-            <div style="text-align:right">
-                <a href="#top">To the top</a>
-            </div>
-         </footer>
-
-
+        </section>
     </main>
+
+   <!--I added a thematic break on each of the pages right above the footer--->
+   <hr>
+    <!--and here i decided to add a footer to the page, including a "to the top" button--> 
+    <footer>
+        <p>Created by alexandra mathilda prince</p>
+            <div style="text-align:right">
+            <a href="#top">To the top</a>
+            </div>
+    </footer>
 </body>
 </html>

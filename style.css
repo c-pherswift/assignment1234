@@ -1,0 +1,117 @@
+/* General Styles: CURATED FONT-COLOR (USING HTML COLOR CHART); SPECIFIED FONT-FAMILY AND SIZE */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+/*applied font color and font family for all paragraphs*?
+
+P {
+    
+
+/* Header: ADDED CUSTOM FONT- COLOR,-FAMILY,-SIZE, AND WEIGHT ON HEADER */
+header {
+    background-color: #f4f4f4;
+    color: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+    font-weight:500;
+    }
+
+/* Size 1 heading specifics */
+h1 {
+    color:#1a1b1b;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* Size 2 heading specifics  */
+h2 {
+    color:#1a1b1b;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* Size 3 heading specifics */
+h3 {
+    color:#1a1b1b;
+    font-family:'Times New Roman', Times, serif;
+}
+
+ul {
+    /*...*/
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #f4f4f4;
+    color:#000;
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+/* Main Content */
+    main {
+    padding: 20px;
+    margin-top: 20px;
+    
+
+    main h2 {
+        color: #35424a;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    main p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    }
+
+
+/* Image grid */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    width: 100%;
+    padding: 10px;
+}
+
+/* with rounded corners on all images using border radius of 20px */
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .image-grid {
+    grid-template-columns: 1fr;
+    }
+}
+
+/* Footer: with specified font, curated html color, centered aligntment and added padding and margin for spacing*/
+    footer {
+        background-color: #f4f4f4;
+        color: #1a1b1b;
+        text-align: center;
+        padding: 100px 0;
+        margin-top: px;
+    }
+
+    footer {
+        margin: 0;
+    }
+}
+/* || SITEWIDE styles*/
+
+.main-nav {
+    /* … */
+  }
+  
