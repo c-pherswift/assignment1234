@@ -87,6 +87,8 @@ nav {
     display: block;
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+   
 }
 
 /* Responsive Design */
@@ -102,13 +104,9 @@ nav {
         color: #1a1b1b;
         text-align: center;
         padding: 100px 0;
-        margin-top: px;
+        margin-top:2px;
     }
 
-    footer {
-        margin: 0;
-    }
-}
 /* || SITEWIDE styles*/
 
 .main-nav {
